@@ -11,3 +11,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.contstyle {
+    background: black;
+}
+
+.colstyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(32, 31, 31);
+    font-size: 80px;
+    font-family: 'EB Garamond', serif;
+    margin: 6px;
+    padding: 4px;
+    border-left: groove rgb(124, 115, 115);
+    border-right: groove rgb(124, 115, 115);
+    border-radius: 10px;
+}
